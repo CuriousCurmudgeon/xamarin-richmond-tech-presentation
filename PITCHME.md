@@ -36,6 +36,11 @@
 
 ---
 
+### Used By
+https://www.xamarin.com/customers
+
+---
+
 ### A Brief History of the Xamarin World
 
 ---
@@ -61,4 +66,66 @@
 
 ---
 
-###
+### Why Xamarin?
+
+---
+
+### Using Xamarin
+
+---
+
+# Cross-Platform .NET
+
+---
+
+### Shared Asset Projects
+
+---
+
+### PCLs
+
+---
+
+### .NET Standard
+* Defines uniform set of Base Class Library (BCL) APIs for all .NET platforms to implement, independent of workload.
+* Enables developers to produce portable libraries that are usable across .NET runtimes, using this same set of APIs.
+* Reduces and hopefully eliminates conditional compilation of shared source due to .NET APIs, only for OS APIs.
+
+---
+
+### IDEs
+* Visual Studio
+* Xamarin Studio
+* Visual Studio for Mac
+
+---
+
+### Xamarin vs Xamarin.Forms
+
+---
+
+### Model-View-ViewModel (MVVM)
+
+---
+
+### Model
+
+---
+
+### View
+
+---
+
+### View Model
+
+---
+
+### Xamarin.Android
+
+---
+
+### Xamarin.iOS
+
+---
+
+### Demo
