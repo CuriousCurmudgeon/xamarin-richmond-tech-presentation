@@ -1,4 +1,4 @@
-### Cross Platform Native Application Development with Xamarin
+# Cross Platform Native Application Development with Xamarin
 
 #### Brian Meeker
 
@@ -17,6 +17,15 @@
 
 > With a C#-shared codebase, developers can use Xamarin tools to write native Android, iOS, and Windows apps with native user interfaces and share code across multiple platforms, including Windows and macOS.
 > -- <cite>Wikipedia</cite>
+
+---
+### Why Xamarin?
+
+---
+
+* Cross-Platform
+* Shared code
+* Native
 
 ---
 
@@ -66,10 +75,6 @@ https://www.xamarin.com/customers
 
 ---
 
-### Why Xamarin?
-
----
-
 ### Using Xamarin
 
 ---
@@ -82,7 +87,9 @@ https://www.xamarin.com/customers
 
 ---
 
-### PCLs
+### Portable Class Libraries (PCLs)
+* Allows you to choose which platforms to target.
+* Gives you the intersection of libraries available on those platforms.
 
 ---
 
@@ -101,6 +108,20 @@ https://www.xamarin.com/customers
 ---
 
 ### Xamarin vs Xamarin.Forms
+
+---
+
+### Xamarin
+* Shared business code.
+* UI code is not shared.
+* UI is defined using tools native to each platform.
+
+---
+
+### Xamarin.Forms
+* Shared business code.
+* Shared UI code (XAML)
+* Hooks to create platform-specific UI as needed.
 
 ---
 
