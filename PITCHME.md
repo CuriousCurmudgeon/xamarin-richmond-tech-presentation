@@ -75,15 +75,13 @@ https://www.xamarin.com/customers
 
 ---
 
-### Using Xamarin
-
----
-
-# Cross-Platform .NET
+### Cross-Platform .NET
 
 ---
 
 ### Shared Asset Projects
+* Allows you to share code across projects, but compile them for each platform with conditional compilation.
+* The contents of the shared project are basically copied into each referencing project.
 
 ---
 
@@ -130,14 +128,19 @@ https://www.xamarin.com/customers
 ---
 
 ### Model
+* The application's domain model. Same as in Model-View-Controller.
 
 ---
 
 ### View
+* Defines the structure, layout, and appearance of what the user sees on screen.
+* Limited amount of code. Business logic is delegated to View Model.
 
 ---
 
 ### View Model
+* Intermediary between view and model. Handles view logic and transforms model data into a form the view needs.
+* Typically a one-to-one relationship between views and view models.
 
 ---
 
@@ -146,6 +149,14 @@ https://www.xamarin.com/customers
 ---
 
 ### Xamarin.iOS
+
+---
+
+### Xamarin.Forms
+
+---
+
+### Extensible Application Markup Language (XAML)
 
 ---
 
