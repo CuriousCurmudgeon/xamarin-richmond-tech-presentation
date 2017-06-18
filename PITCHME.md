@@ -160,4 +160,45 @@ https://www.xamarin.com/customers
 
 ---
 
+```html
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarvelDemo.Views.MainView"
+             Title="The Avengers">
+  <ListView x:Name="CharactersListView"
+            ItemsSource="{Binding Characters}"
+            ItemSelected="CharactersListView_OnItemSelected">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ImageCell ImageSource="{Binding Thumbnail.FullPath}"
+                   Text="{Binding Name}"/>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>
+```
+
+---
+
+### Binding
+
+---
+
+### INotifyPropertyChanged
+* Interface commonly implemented by view models used to notify clients, typically binding clients, that a property value has changed.
+
+---
+
+### MainActivity
+* By convention, the initial activity in your Android app.
+* Manages application lifecycle events (start, suspend, resume, terminate)
+
+---
+
+### AppDelegate
+* Effectively the root object of your iOS app.
+* Manages application lifecycle events (start, suspend, resume, terminate)
+---
+
 ### Demo
