@@ -2,8 +2,6 @@
 
 #### Brian Meeker
 
----
-
 ---?image=irt_logo.png&size=auto
 
 ---?image=innovation_center_logo.png&size=auto
@@ -147,14 +145,6 @@ https://www.xamarin.com/customers
 ### View Model
 * Intermediary between view and model. Handles view logic and transforms model data into a form the view needs.
 * Typically a one-to-one relationship between views and view models.
-
----
-
-### Xamarin.Android
-
----
-
-### Xamarin.iOS
 
 ---
 
