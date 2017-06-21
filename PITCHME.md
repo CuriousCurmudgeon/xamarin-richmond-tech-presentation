@@ -4,6 +4,12 @@
 
 ---
 
+---?image=irt_logo.png&size=auto
+
+---?image=innovation_center_logo.png&size=auto
+
+---
+
 ### About Me
 
 * http://brianmeeker.me/
